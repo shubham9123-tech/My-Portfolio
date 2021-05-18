@@ -1,0 +1,367 @@
+body{
+    margin:0px;
+    
+    
+}
+#body-header{
+
+    background-image: url(macbook_mouse.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 65vh;
+    opacity: 0.9;
+    background-attachment: fixed;
+    
+}
+.H-list{
+    padding: 7px;
+    list-style: none;
+    text-align: center;
+    margin:0px;
+}
+.H-list li{
+    display: inline-block;
+    margin: 0px 6px 0px 6px;
+    font-size: 17px;
+    
+    
+}
+.H-list li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.H-list li a:hover{
+    color:lightblue;
+    border-bottom: 1px solid white; 
+}
+.nav-menu li a{
+    transition: color 0.5s;
+}
+h1{
+    color: white;
+}
+#social-container{
+    margin-top: 20vh;
+}
+#my-name{
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-weight: 800 ;
+    
+}
+.social-icons li a{
+    padding:10px;
+    font-size:24px;
+    border-radius: 50%;
+}
+.social-icons li a:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230,196 , 196, 0.2);
+}
+section{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section:nth-child(2n){
+    background-color: grey;
+}
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+    
+}
+#my-image{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -15vh;
+    
+}
+#my-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#about-para {
+    padding: 10px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+
+}
+
+.skills-me {
+    padding-right:10px ;
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+.skills-me span{
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+.skill-display{
+    width: 70%;
+    height: 100px;
+   
+    display: flex;
+    
+    flex-wrap:wrap ;
+    justify-content: space-between;
+}
+.skills-show{
+    width: 7rem;
+    height: 1.4rem;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+.skills-show>div{
+    border-radius: 20px 0px 0px 20px;
+}
+.ninty{
+    width: 85%;
+    height: inherit;
+    background-color: blue;
+    
+}
+.skills-name span {
+    color: white;
+    font-size: 1rem;
+    margin-left: 40px;
+}
+.eighty{
+    width: 75%;
+    height: inherit;
+    background-color: orangered;
+}    
+.seventy{
+    width: 75%;
+    height: inherit;
+    background-color: orangered;
+}   
+.one{
+    width: 75%;
+    height: inherit;
+    background-color: purple
+}     
+.two{
+    width: 75%;
+    height: inherit;
+    background-color:darkturquoise;
+}    
+.three{
+    width: 75%;
+    height: inherit;
+    background-color: darkkhaki;
+}  
+.timeline{
+    width: 75%;
+    
+    position: relative;
+    
+   
+}  
+.timeline-box {
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 130px;
+    border: 2px solid black;
+}
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+.first{
+    text-align: center;
+    
+}
+.f1{
+  font-family: cursive;
+}
+
+#portfolio-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 50px;
+    margin-bottom: 2%;
+    justify-content: space-around;
+}
+.portfolio-image-container {
+    max-width: 300px;
+    overflow: hidden;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.portfolio-image-container img {
+    width: 100%;
+    height: 100%;
+}
+.portfolio-details {
+    
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+.portfolio-image-container:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+.portfolio-image-container:hover .portfolio-details {
+    background-color: #80808078;
+    
+    color: black;
+}
+.ports{
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+
+
+#contact {
+
+
+
+    background-color: #0abcf9;
+    background: linear-gradient(#42257a,#734b6d );
+   
+    color: white;
+    padding-bottom: 40px;
+}
+
+#contact h1,
+#contact h1 span {
+    color: white;
+}
+#contact-form {
+    margin-left: 20%;
+}
+
+#contact-container {
+    display: flex;
+}
+
+#my-details-container {
+    width: 35%;
+    margin-left: 6%;
+}
+
+#my-details-container h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.2rem;
+}
+
+#contact-form-container {
+    width: 50%;
+}
+
+#my-details-container p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+    font-size: 0.95rem;
+}
+
+.my-details-info-container i {
+    color: white;
+}
+
+.my-details-icon {
+    width: 1rem;
+    height: 1rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+}
+
+
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    /*#2857a4*/
+    color: var(--contact-light-text-color);
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    /*#1a1a1a;*/
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+
+#contact .social-icons li a i {
+
+    font-size: 1.2rem;
+    margin: 40px 10px 10px;
+    padding: 10px 14px 20px 10px;
+
+}
+
+
